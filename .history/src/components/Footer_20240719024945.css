@@ -7,13 +7,13 @@
   
   @media only screen and (max-width: 768px) { /* Example breakpoint */
     .footer {
-      grid-template-rows: 50px repeat(1, min-content) 56px;
+      grid-template-rows: 56px repeat(2, min-content) 56px;
     }
   }
   
   @media only screen and (max-width: 650px) { 
     .footer {
-      grid-template-rows: 64px repeat(1, min-content) 64px;
+      grid-template-rows: 64px repeat(2, min-content) 64px;
     }
   }
   
@@ -34,8 +34,8 @@
   
   @media only screen and (max-width: 768px) {
     .footer__content {
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(1, min-content);
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, min-content);
       row-gap: 3.2rem;
     }
   }
@@ -43,8 +43,8 @@
   @media only screen and (max-width: 480px) {
     .footer__content {
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(1, min-content);
-      /* row-gap: 2.4rem; */
+      grid-template-rows: repeat(3, min-content);
+      row-gap: 2.4rem;
     }
   }
   

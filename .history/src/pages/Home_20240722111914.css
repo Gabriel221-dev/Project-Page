@@ -290,7 +290,7 @@
       column-gap: 0;
       row-gap: 2.5rem;
       padding: 2.5rem;
-      margin-top: 6.8rem;
+      margin-top: 3rem;
     }
   }
   
@@ -312,12 +312,12 @@
     -webkit-line-clamp: 4; 
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-top: 20px;
+    margin-top: 70px;
   }
   
   .delivering__quote h3 {
     font-size: 1.2rem;
-    color: #083a26;
+    color: #fff;
   }
 
   /* .delivering__quote h3,

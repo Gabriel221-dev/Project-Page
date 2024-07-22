@@ -259,7 +259,7 @@
   @media only screen and (max-width: 768px) {
     .delivering__title {
       margin-top: 4.8rem;
-      font-size: 1.9rem;
+      font-size: 1.4rem;
       display: block;
       max-width: 550px;
       margin-bottom: 60px;
@@ -290,7 +290,7 @@
       column-gap: 0;
       row-gap: 2.5rem;
       padding: 2.5rem;
-      margin-top: 6.8rem;
+      margin-top: 3rem;
     }
   }
   
@@ -312,12 +312,12 @@
     -webkit-line-clamp: 4; 
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-top: 20px;
+    margin-top: 90px;
   }
   
   .delivering__quote h3 {
     font-size: 1.2rem;
-    color: #083a26;
+    color: #fff;
   }
 
   /* .delivering__quote h3,
