@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import logo from "../assets/logo.svg";
-import Sidebar from "./SideBar";
+import Sidebar from "./Sidebar";
 import "./Header.css";
 import { IconContext } from "react-icons";
 
